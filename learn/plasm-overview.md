@@ -1,36 +1,38 @@
-# Plasma Overview 🔮
+# Visão geral do Plasma 🔮
 
-We will walk through the basic functions of Plasma on this page.
+Iremos percorrer as funções básicas do plasma nesta página.
 
-Plasma is one of the blockchain scaling solutions invented by Joseph Poon and Vitalik Buterin. 
+O plasma é uma das soluções de escala de blockchain inventadas por Joseph Poon e Vitalik Buterin.
+ 
 
 [White paper](https://plasma.io/plasma.pdf)
 
-Plasma is a framework to make a side chain and connect it to a main chain \(e.g. Ethereum\). The side chain and the main chain communicate each other.
+O plasma é um framework para fazer uma cadeia lateral e conectá-la a uma cadeia principal \(por exemplo, Ethereum\). A cadeia lateral e a cadeia principal se comunicam.
 
-## Why Plasma?
 
-Blockchains are slow and expensive by design. Blockchains can't be an infrastructure of the world without an high scalability. We, Plasma implementors try to make it fast and cheap without sacrificing safety and decentralization so that everyone can use blockchains.
+## Porque Plasma?
 
-## In the Plasm Network
+As blockchains são lentas e caras por definição. As cadeias de blocos não podem ser uma infraestrutura do mundo sem uma alta escalabilidade. Nós, implementadores do plasma, tentamos torná-lo rápido e barato, sem sacrificar a segurança e a descentralização, para que todos possam usar blockchains.
 
-Plasma is one of the scale solutions in the blockchain. The basic idea of ​​Plasma is to manage and process transactions in a Merkle tree outside the chain at high speed, and engrave only the Merkle root on the blockchain. The person responsible for performing the off-chain processing and submitting the hash to the blockchain is called an Aggregator in the context of Plasma.
+## Na Plasm Network
+
+O Plasma é uma das soluções de escala na Blockchain. A idéia básica do Plasma é gerenciar e processar transações em uma árvore Merkle fora da cadeia em alta velocidade e gravar apenas a raiz Merkle na blockchain. A pessoa responsável por executar o processamento fora da cadeia e enviar o hash para a blockchain é chamada de Agregador no contexto do Plasma.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-183650png.png)
 
-Plasm Network supports "Plasma" which is based on Plasma-Cash. It has one NFT state not a transaction, at the leaves of the Merkle tree. Rules for performing state transition can be defined by Optimistic Virtual Machine \(OVM\) as described later. 
+A Plasm Network suporta "Plasma", que é baseado no Plasma-Cash. Seu estado é NFT e ele não é uma transação nas folhas da árvore Merkle. As regras para executar a transição de estado podem ser definidas pelo OVM \(Optimistic Virtual Machine\), conforme descrito posteriormente. 
 
 {% page-ref page="optimistic-virtual-machine.md" %}
 
-The below figure shows an example of an NFT state transition that has ownership as a state and the necessary Transaction.
+A figura abaixo mostra um exemplo de uma transição de estado NFT que possui propriedade como um estado e a transação necessária.
 
 ![](../.gitbook/assets/sukurnshotto-2020-05-31-183843png.png)
 
-In this case, in order to make a state transition, 
+Nesse caso, para fazer uma transição de estado, 
 
-1. It must be signed by "Owner"   
-2. A new state must be specified for output   
-3. A state must not have already been transitioned in another way, this is described using OVM. The logic described here is called "Predicate". It is described in first-order logic. When OVM receives the accepted Transaction, it changes the state and updates the Merkle route.
+1. Deve ser assinado pelo "Proprietário"   
+2. Um novo estado deve ser especificado para a saída
+3. Um estado já não deve ter sido transferido de outra maneira, isso é descrito usando o OVM. A lógica descrita aqui é chamada "Predicado". É descrito na lógica de primeira ordem. Quando o OVM recebe a transação aceita, ele altera o estado e atualiza a rota Merkle.
 
-In Plasma, a single Aggregator handles these transactions and submits the Merkle route. If the Aggregator cheats, the transaction submitted by the user may be falsified. Plasma can dispute the correctness of transactions and states on the main chain using OVM and Predicate described above for such tampering. This allows Plasma to combine both the fast transaction processing power by a single Aggregator and the strong security of the blockchain.
+No Plasma, um único agregador lida com essas transações e envia a rota Merkle. Se o Agregador trapaceia, a transação enviada pelo usuário pode ser falsificada. O plasma pode contestar a exatidão das transações e estados na cadeia principal usando OVM e Predicado descritos acima para tal violação. Isso permite que o Plasma combine o poder de processamento rápido de transações por um único agregador e a forte segurança da blockchain. 
 

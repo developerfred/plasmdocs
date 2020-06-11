@@ -155,5 +155,5 @@ The green line that represents the average annual rate of reward for Staking is 
 
 By adding the above-inflation model, we will adjust the incentives of Plasm users and encourage the actions expected of Plasm Network.
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar no [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

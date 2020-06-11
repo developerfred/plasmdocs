@@ -1,24 +1,25 @@
-# The Problems Plasm Solves 🌾
+# Os Problemas que o Plasm Resolve 🌾
 
-[Plasm Network](https://www.plasmnet.io/) is a layer1 blockchain that solves prominent issues: scalability and interoperability. 
+A [Plasm Network](https://www.plasmnet.io/) é uma cadeia de blocos layer1 que resolve problemas importantes: escalabilidade e interoperabilidade. 
 
-## Scalability
+## Escabilidade
 
-Blockchain does't scale by design because of decentralized consensus mechanism. TPS \(Transaction Per Second\) is much smaller than a centralized data base and there is an upper limitation of data that can be stored in every block. Therefore, users across the network may notice their transactions sit as unconfirmed or pending for a longer period of time, and we understand this makes user experience worse. 
+A Blockchain não é dimensionada por sua arquitetura inicial por causa do mecanismo de consenso descentralizado. A TPS \(Transação por segundo\) é muito menor que uma base de dados centralizada e há uma limitação superior de dados que podem ser armazenados em cada bloco. Portanto, os usuários da rede podem perceber que suas transações não são confirmadas ou estão pendentes por um longo período de tempo, e entendemos que isso piora a experiência do usuário. 
 
-When we say "scalability", [Plasm Network](https://www.plasmnet.io/) is addressing the followings topics.
+Quando dizemos "escalabilidade", a [Plasm Network](https://www.plasmnet.io/)  aborda os seguintes tópicos.
 
-* More Transaction Per Second \(TPS\)
-* Cheaper transaction cost
-* Faster finality
+* Mais transações por segundo \(TPS\)
+* custo de transação mais barato
+* Finalização veloz
 
-### Interoperability
+### Interoperabilidade
 
-Currently, many blockchains are created but few blockchains have interoperability as a feature.  For example, to move "value" from Bitcoin to Ethereum, we need some sorts of centralized exchanges. Polkadot is a sharded protocol that enables blockchain networks to operate together seamlessly. 
+Atualmente, muitas cadeias de bloco são criadas, mas poucas têm a interoperabilidade como um recurso. Por exemplo, para mover o "valor" do Bitcoin para o Ethereum, precisamos de alguns tipos de trocas centralizadas. O Polkadot é um protocolo fragmentado que permite que as redes blockchain operem juntas de maneira integrada.
 
-[Plasm Network](https://www.plasmnet.io/) is compatible with Polkadot. By connecting [Plasm Network](https://www.plasmnet.io/) to Polkadot, we will have a true interoperability.
+[Plasm Network](https://www.plasmnet.io/) é compatível com Polkadot. Ao conectar a [Plasm Network](https://www.plasmnet.io/) ao Polkadot, teremos uma verdadeira interoperabilidade.
+
 
 {% page-ref page="../ecosystem/polkadot.md" %}
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar no [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

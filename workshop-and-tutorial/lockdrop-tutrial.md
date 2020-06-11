@@ -107,9 +107,9 @@ The link above should redirect you directly to the toolbox page shown in the fol
 
 Now we just copy the hex string to the extrinsic field and push the **Submit RPC call** button. The transfer transaction will be sent immediately. You can check the results from the [account balances](https://apps.plasmnet.io/#/accounts) page.
 
-## Conclusion
+## Conclusão
 
 We’ve looked into how the lockdrop for Plasm Network will work and how to use the lockdrop application. Given that you have enough tokens, it is fairly straight forward to use. With this, you should be able to participate in the lockdrop, and get your hands on some fresh PLMs!
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar no [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 

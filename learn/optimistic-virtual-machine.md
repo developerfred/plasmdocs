@@ -1,10 +1,10 @@
 ---
-description: Plasma and beyond.
+description:  Plasma e além
 ---
 
 # Optimistic Virtual Machine 🌔
 
-### What is Optimistic Virtual Machine?
+### O que é Optimistic Virtual Machine (Máquina virtual otimista)?
 
 To put it simply, OVM \(Optimistic Virtual Machine\)  is the virtual machine designed to support all laye r2 protocols invented by the Ethereum Foundation Plasma Group. It is a possible unification of all layer2 scalabilities constructions. This means that **Plasm Network will not only be for Plasma applications but also for Lightning Network applications or any other layer 2 protocols.**
 
@@ -358,5 +358,5 @@ fn is_valid_challenge(predicate_address: T::AccountId, inputs: Vec<u8>, challeng
 fn decide(predicate_addres: T::AccountId, inputs: Vec<u8>, witness: Vec<u8>);
 ```
 
-Any questions? Feel free  to ask us on [Discord Tech Channel](https://discord.gg/Z3nC9U4).
+Alguma pergunta? Não hesite em perguntar no [Discord Tech Channel](https://discord.gg/Z3nC9U4).
 
